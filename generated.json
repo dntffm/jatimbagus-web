@@ -1,0 +1,138 @@
+[
+  {
+    "_id": "5ded2681f3ac7f2b117da902",
+    "index": 0,
+    "Kota": "Kabupaten Jember",
+    "destinasi": [
+      {
+        "id": 0,
+        "name": "Papuma",
+        "picture": "img/bromo 2.jpg",
+        "about": "Esse dolore tempor officia enim enim mollit ut enim proident non dolor reprehenderit dolor ex. Culpa sit eiusmod sint tempor in ad. Consequat nisi ipsum in enim sit incididunt reprehenderit. Non in nostrud minim voluptate veniam et cillum incididunt proident aute consequat sunt. Nostrud cupidatat duis anim ullamco deserunt incididunt reprehenderit consequat exercitation esse ea. Fugiat ea deserunt laborum ea consectetur. Cillum culpa sunt laborum aliquip laborum commodo consectetur voluptate nisi eiusmod ad Lorem amet aliqua.\r\n",
+        "latitude": -73.047389,
+        "longitude": -18.108071,
+        "Rating": "9"
+      },
+      {
+        "id": 1,
+        "name": "Watu Ulo",
+        "picture": "img/bromo 3.jpg",
+        "about": "Id ad dolor sunt occaecat est ea. Occaecat sint elit dolore labore exercitation anim laboris occaecat minim nulla adipisicing anim. Fugiat enim ad tempor amet amet. Ipsum irure irure nisi nulla laborum eu occaecat et dolor sint sit Lorem excepteur. Sint dolor nostrud elit excepteur. Fugiat sunt magna mollit aliquip excepteur commodo sit reprehenderit veniam nostrud laborum et. Pariatur sit minim elit magna consectetur nulla occaecat.\r\n",
+        "latitude": 20.966375,
+        "longitude": -98.869212,
+        "Rating": "8"
+      },
+      {
+        "id": 2,
+        "name": "Bande Alit",
+        "picture": "img/pantai 1.jpg",
+        "about": "Cillum sint exercitation fugiat laboris nulla magna sint dolore dolore pariatur laboris anim. Duis in cillum anim occaecat tempor cillum laborum reprehenderit. In reprehenderit proident consectetur magna consectetur duis nulla qui qui non proident pariatur culpa enim.\r\n",
+        "latitude": -62.519842,
+        "longitude": 38.425709,
+        "Rating": "7"
+      }
+    ]
+  },
+  {
+    "_id": "5ded2681f3ac7f2b117da902",
+    "index": 1,
+    "Kota": "Kabupaten Bondowoso",
+    "destinasi": [
+      {
+        "id": 0,
+        "name": "Kawah Wurung",
+        "picture": "img/bromo 2.jpg",
+        "about": "Esse dolore tempor officia enim enim mollit ut enim proident non dolor reprehenderit dolor ex. Culpa sit eiusmod sint tempor in ad. Consequat nisi ipsum in enim sit incididunt reprehenderit. Non in nostrud minim voluptate veniam et cillum incididunt proident aute consequat sunt. Nostrud cupidatat duis anim ullamco deserunt incididunt reprehenderit consequat exercitation esse ea. Fugiat ea deserunt laborum ea consectetur. Cillum culpa sunt laborum aliquip laborum commodo consectetur voluptate nisi eiusmod ad Lorem amet aliqua.\r\n",
+        "latitude": -73.047389,
+        "longitude": -18.108071,
+        "Rating": "9"
+      },
+      {
+        "id": 1,
+        "name": "Kawah Ijen",
+        "picture": "img/bromo 3.jpg",
+        "about": "Id ad dolor sunt occaecat est ea. Occaecat sint elit dolore labore exercitation anim laboris occaecat minim nulla adipisicing anim. Fugiat enim ad tempor amet amet. Ipsum irure irure nisi nulla laborum eu occaecat et dolor sint sit Lorem excepteur. Sint dolor nostrud elit excepteur. Fugiat sunt magna mollit aliquip excepteur commodo sit reprehenderit veniam nostrud laborum et. Pariatur sit minim elit magna consectetur nulla occaecat.\r\n",
+        "latitude": 20.966375,
+        "longitude": -98.869212,
+        "Rating": "8"
+      },
+      {
+        "id": 2,
+        "name": "Tancak Kembar",
+        "picture": "img/pantai 3.jpg",
+        "about": "Cillum sint exercitation fugiat laboris nulla magna sint dolore dolore pariatur laboris anim. Duis in cillum anim occaecat tempor cillum laborum reprehenderit. In reprehenderit proident consectetur magna consectetur duis nulla qui qui non proident pariatur culpa enim.\r\n",
+        "latitude": -62.519842,
+        "longitude": 38.425709,
+        "Rating": "7"
+      }
+    ]
+  },
+  {
+    "_id": "5ded2681f3ac7f2b117da902",
+    "index": 1,
+    "Kota": "Kabupaten Banyuwangi",
+    "destinasi": [
+      {
+        "id": 0,
+        "name": "Pulau Merah",
+        "picture": "img/bromo 2.jpg",
+        "about": "Esse dolore tempor officia enim enim mollit ut enim proident non dolor reprehenderit dolor ex. Culpa sit eiusmod sint tempor in ad. Consequat nisi ipsum in enim sit incididunt reprehenderit. Non in nostrud minim voluptate veniam et cillum incididunt proident aute consequat sunt. Nostrud cupidatat duis anim ullamco deserunt incididunt reprehenderit consequat exercitation esse ea. Fugiat ea deserunt laborum ea consectetur. Cillum culpa sunt laborum aliquip laborum commodo consectetur voluptate nisi eiusmod ad Lorem amet aliqua.\r\n",
+        "latitude": -73.047389,
+        "longitude": -18.108071,
+        "Rating": "9"
+      },
+      {
+        "id": 1,
+        "name": "TN Baluran",
+        "picture": "img/bromo 3.jpg",
+        "about": "Id ad dolor sunt occaecat est ea. Occaecat sint elit dolore labore exercitation anim laboris occaecat minim nulla adipisicing anim. Fugiat enim ad tempor amet amet. Ipsum irure irure nisi nulla laborum eu occaecat et dolor sint sit Lorem excepteur. Sint dolor nostrud elit excepteur. Fugiat sunt magna mollit aliquip excepteur commodo sit reprehenderit veniam nostrud laborum et. Pariatur sit minim elit magna consectetur nulla occaecat.\r\n",
+        "latitude": 20.966375,
+        "longitude": -98.869212,
+        "Rating": "8"
+      },
+      {
+        "id": 2,
+        "name": "Teluk Ijo",
+        "picture": "img/pantai 3.jpg",
+        "about": "Cillum sint exercitation fugiat laboris nulla magna sint dolore dolore pariatur laboris anim. Duis in cillum anim occaecat tempor cillum laborum reprehenderit. In reprehenderit proident consectetur magna consectetur duis nulla qui qui non proident pariatur culpa enim.\r\n",
+        "latitude": -62.519842,
+        "longitude": 38.425709,
+        "Rating": "7"
+      }
+    ]
+  },
+  {
+    "_id": "5ded2681f3ac7f2b117da902",
+    "index": 1,
+    "Kota": "Kabupaten Malang",
+    "destinasi": [
+      {
+        "id": 0,
+        "name": "Selecta",
+        "picture": "img/bromo 2.jpg",
+        "about": "Esse dolore tempor officia enim enim mollit ut enim proident non dolor reprehenderit dolor ex. Culpa sit eiusmod sint tempor in ad. Consequat nisi ipsum in enim sit incididunt reprehenderit. Non in nostrud minim voluptate veniam et cillum incididunt proident aute consequat sunt. Nostrud cupidatat duis anim ullamco deserunt incididunt reprehenderit consequat exercitation esse ea. Fugiat ea deserunt laborum ea consectetur. Cillum culpa sunt laborum aliquip laborum commodo consectetur voluptate nisi eiusmod ad Lorem amet aliqua.\r\n",
+        "latitude": -73.047389,
+        "longitude": -18.108071,
+        "Rating": "9"
+      },
+      {
+        "id": 1,
+        "name": "Jawa Timur Park",
+        "picture": "img/bromo 3.jpg",
+        "about": "Id ad dolor sunt occaecat est ea. Occaecat sint elit dolore labore exercitation anim laboris occaecat minim nulla adipisicing anim. Fugiat enim ad tempor amet amet. Ipsum irure irure nisi nulla laborum eu occaecat et dolor sint sit Lorem excepteur. Sint dolor nostrud elit excepteur. Fugiat sunt magna mollit aliquip excepteur commodo sit reprehenderit veniam nostrud laborum et. Pariatur sit minim elit magna consectetur nulla occaecat.\r\n",
+        "latitude": 20.966375,
+        "longitude": -98.869212,
+        "Rating": "8"
+      },
+      {
+        "id": 2,
+        "name": "Museum Angkut",
+        "picture": "img/pantai 3.jpg",
+        "about": "Cillum sint exercitation fugiat laboris nulla magna sint dolore dolore pariatur laboris anim. Duis in cillum anim occaecat tempor cillum laborum reprehenderit. In reprehenderit proident consectetur magna consectetur duis nulla qui qui non proident pariatur culpa enim.\r\n",
+        "latitude": -62.519842,
+        "longitude": 38.425709,
+        "Rating": "7"
+      }
+    ]
+  }
+]

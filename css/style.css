@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+html{
+  scroll-behavior: smooth;
+}
+body,section{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway',sans-serif;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+/**menu**/
+#menu{
+  position: fixed;
+  right: 0px;
+  top: 5px;
+  display: block;
+  background-color: #333;
+  color: white;
+  width: 85px;
+  padding: 5px;
+}
+#menu:hover{
+cursor: pointer;
+background-color: black;
+
+}
+.bar1,.bar2,.bar3{
+width: 35px;
+height: 5px;
+background-color: rgb(226, 226, 226);
+margin: 6px 0;
+transition: 0.4s;
+}
+
+/**SIDEBAR**/
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(206, 27, 40);
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #cecaca;
+  cursor: pointer;
+}
+.sidebar a.close{
+    font-weight: bolder;
+    text-align: right;
+}
+/**HERO START**/
+.logo{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: left;
+  width: 20%;
+}
+.logo img{
+  width: 50%;
+  height: 12%;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/bromo\ 1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1{
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.hero .hero-btn{
+    border: 3px solid white;
+    width: 200px;
+    display: block;
+    padding: 1em;
+    margin: 20px auto;
+
+}
+.hero a.hero-btn{
+    text-decoration: none;
+    color: white;
+}
+.hero a:hover{
+    border-color: rgb(94, 94, 94);
+
+}
+/**HERO END**/
+/**Card**/
+.separator,#blog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sep-inner h1{
+  color: rgb(206, 27, 40);
+}
+.card-outer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-outer > div.card{
+  margin: 10px;
+}
+.blog-card{
+  text-align: center;
+  width: 25%;
+  height: 250px;
+  margin: 35px;
+  /* -webkit-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75); */
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.blog-card > img{
+  width: 100%;
+  height: 50%;
+}
+.blog-card:hover{
+  cursor: pointer;
+  transition: 0.4s;
+  -webkit-box-shadow: 1px -1px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px -1px 14px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px -1px 14px 0px rgba(0,0,0,0.75);
+}
+
+.card a{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  border-top-left-radius: 10px;
+}
+.card a:hover{
+  background-color: rgb(214, 91, 91);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.next{
+  margin-bottom: 10px;
+}
+/**DESTINASI START**/
+#destinasi{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/papuma.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+
+}
+.dest-inner{
+  font-family: Arial;
+  width: 30%;
+  height: 100vh;
+  color: white;
+  margin: 40px;
+  overflow: hidden;
+}
+.dest-inner h1{
+
+  font-size: 35px;
+  font-weight: 100;
+}
+.dest-inner p{
+  font-weight: 100;
+}
+/**DESTINASI END**/
+/** PAKET WISATA **/
+#paket{
+  height: 100vh;
+  width: 100%;
+  background-color: #dadfe2;
+  text-align: center;
+}
+#paket h1{
+  font-family: "Raleway",sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  
+}
+.paket-card{
+  background-color: white;
+  margin: 50px;
+  width: 25%;
+  height: 50vh;
+  float: left;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  text-align: center;
+}
+/** PAKET WISATA **/
+#paket{
+  height: 100vh;
+  width: 100%;
+  background-color: #dadfe2;
+  text-align: center;
+}
+#paket h1{
+  font-family: "Raleway",sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  
+}
+.paket-card{
+  background-color: white;
+  margin: 50px;
+  width: 25%;
+  height: 50vh;
+  float: left;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  text-align: center;
+}
+/** kontak **/
+.kontak{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+i{
+  margin: 10px;
+}
+/** footer **/
+footer{
+  background-color: #333;
+  color: white;
+  padding: 30px;
+}
+@media screen and (max-width: 600px) {
+  #menu{
+    width: 8%;
+    font-size: 13px;
+    height: 8%;
+  }
+  #destinasi{
+    align-items: center;
+    justify-content: center;
+  }
+  .dest-inner{
+    width: 80%;
+    text-align: center;
+  }
+  .blog-card{
+    width: 100%;
+  }
+  .paket-card{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+.paket-card{
+  margin: 25px;
+  height: 300px;
+}
+@media screen and (max-width: 768px) {
+  .hero{
+    height: 100vh;
+  }
+  
+  
+}

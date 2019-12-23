@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>L O G I N</title>
+	<link rel="stylesheet" type="text/css" href="css/Login.css">
+</head>
+<body>
+	<header>
+		<a href="index.html" class="homepage-link">D A I L Y P A R E N T I N G</a>
+		<nav>
+			<ul>
+				<li><a href="fitur.html">FITUR-FITUR</a></li>
+				<li><a href="bantuan.html">BANTUAN</a></li>
+				<li><a href="buat akun.html">DAFTAR</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<center><div class="box">
+		<H3>L O G I N</H3>
+		<center>
+			<input id="uname" type="username" name="username" placeholder="nama pengguna"><br><br>
+			<input id="passwd" type="password" name="password" placeholder="kata sandi"><br><br>
+			
+			<button onclick="validateLogin()">MASUK</button>
+			
+
+		</center>
+		<div class="Lupa">
+			<a href="konfirmasi.html"><p>Lupa kata sandi?</p></a>
+		</div>
+	</center>	
+	</div>
+
+	<script type="text/javascript">
+		function validateLogin() {
+		  var un = document.getElementById('uname').value;
+		  var pw = document.getElementById('passwd').value;
+
+		  if(un === 'admin' && pw === '123'){
+			  window.location.href = 'Home.html';
+		  } else{
+			  alert("Login gagal");
+		  }
+		}
+	</script>
+</body>
+</html>

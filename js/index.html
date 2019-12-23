@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>D A I L Y P A R E N T I N G</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<style type="text/css">
+		/*Background*/
+		body{
+			margin: 0px;
+    		padding: 0px;
+    		background:url("img/bg.jpeg");
+    		background-repeat: no-repeat;
+    		background-size: 100%;
+		}
+		header{
+   		 height: 15vh;
+   		 grid-template-columns: 1fr;
+   		 grid-template-rows: 1fr;
+   		 grid-area: "header";
+   		 display: flex;
+   		 justify-content: flex-end;
+   		 align-items: center;
+   		 padding-right: 5vw;
+		}
+		/*Navigasi*/
+		nav ul{
+  		  float: right;
+  		  display: flex;
+  		  list-style-type: none;
+		}
+		nav a{
+    		display: block;
+    		font-weight: bold;
+    		text-decoration: none;
+    		color: black;
+    		font-size: 12px;
+    		padding: 10px 25px; /*padding item dengan item lainnya*/
+		}
+		/*kotak transparan*/
+		.box {
+			background: rgba(155, 195, 223, 0.8);
+			margin-top: 270px;
+			padding-top: 80px;
+			width: 100%;
+			height: 250px;
+			position: static;
+		}
+		/*isi dalam kotak*/
+		.content {
+			font-family: Lucida Fax;
+			font-size: 20px;
+			color: black;
+			text-align: center;
+		}
+		/*tombol*/
+		input[type="submit"]{
+		    margin: auto;
+		    width: 120px;
+		    height: 32px;
+		    background: #6D9AB9;
+		    border: inherit;
+		    border-radius: 12px;
+		    font-family:Lucida Fax ;
+		    text-transform: uppercase;
+		    cursor:pointer;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- Navigasi -->
+	<header>
+		<b><p style="height: 5vh; margin-right: 580px">D A I L Y P A R E N T I N G</p></b>
+		<nav>
+			<ul>
+				<li><a href="fitur.html">FITUR-FITUR</a></li>
+				<li><a href="bantuan.html">BANTUAN</a></li>
+				<li><a href="buat akun.html">DAFTAR</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Tulisan pembuka -->
+	<div class="box">
+		<div class="content	">
+			<H3>Momen Tumbuh Kembang Si Kecil Tidak Pernah Terulang.</H3>
+		<p>Kami membantu anda mencatat setiap tumbuh kembang bayi anda dan memberikan solusi kesehatan yang tepat sesuai usianya.</p></div>
+		<!-- Tombol -->
+		<center>
+			<a href="Login.html"><input type="submit" name="signup-button" value="Masuk"></a>
+		</center>
+	</div>
+
+
+
+	<div class="modal">
+		<div class="mod-content">
+			<div class="close">X</div>
+			<h1>Selamat Datang!!!</h1>
+		</div>
+	</div>
+
+
+
+
+<script src="script/jquery.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.close').click(function() {
+			$('.mod-content').animate({bottom : '-2000px'},1500);
+			$('.modal').delay('fast').fadeOut();
+		})
+	})
+</script>
+
+</body>
+</html>

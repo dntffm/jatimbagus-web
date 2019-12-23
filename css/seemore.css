@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway',sans-serif;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/pantai\ 1.jpg");
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  width: 80vw;
+  margin: auto;
+}
+.destinasi{
+  display: flex;
+  flex-direction: row;
+  
+}
+.destinasi img{
+  width: 100%;
+}
+.item-destinasi{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.klil{
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+.klil:hover{
+  cursor: pointer;
+}
+.item-destinasi:hover{
+  cursor: pointer;
+}
+.modal{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0,0.7);
+}
+.detail{
+  width: 60vw;
+  height: 60vh;
+  margin: 50px auto;
+  background-color: #fff;
+}
+.detail img{
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+.tulisan{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+.tulisan p{
+  font-weight: bold;
+}
+.clsModal{
+  position: absolute;
+  top: 50px;
+  font-weight: bold;
+}
+.clsModal:hover{
+  cursor: pointer;
+}
